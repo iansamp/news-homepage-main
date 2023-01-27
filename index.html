@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="/src/css/responsive.css">
+  <title>Frontend Mentor | News homepage</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <section class="navbar">
+      <div class="logo">
+        <a href=""><img src="/assets/images/logo.svg" alt="logo"></a>
+      </div>
+      <div id="nav">
+        <button id="openMenu"><img id="#open" src="/assets/images/icon-menu.svg" alt=""></button>
+        <ul id="menu">
+          <li><a class="nav-color" href="">Home</a></li>
+          <li><a class="nav-color" href="">New</a> </li>
+          <li><a class="nav-color" href="">Popular</a></li>
+          <li><a class="nav-color" href="">Trending</a></li>
+          <li><a class="nav-color" href="">Categories</a></li>
+        </ul>
+      </div>
+    </section>
+  </header>
+
+  <main>
+
+    <section class="division">
+
+      <section class="main">
+        <div>
+          <img class="img-mobile" src="/assets/images/image-web-3-mobile.jpg" alt="">
+          <img class="img" src="/assets/images/image-web-3-desktop.jpg" alt="">
+        </div>
+        <div class="notice">
+          <h1 class="title">The Bright Future of Web 3.0?</h1>
+          <div class="infos">
+            <p class="info">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="box-news">
+          <h2 class="news-title">New</h2>
+          <div class="box">
+            <a class="news-link" href="">Hydrogen VS Electric Cars</a><br>
+            <p class="news-text">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="box">
+            <a class="news-link" href="">The Downsides of AI Artistry</a><br>
+            <p class="news-text">
+              What are the possible adverse effects of on-demand AI image generation?
+            </p>
+          </div>
+          <div class="box">
+            <a class="news-link" href="">Is VC Funding Drying Up?</a><br>
+            <p class="news-text">
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section class="extra-info">
+      <img class="img-info" src="/assets/images/image-retro-pcs.jpg" alt="">
+      <div class="info-container">
+        <h1 class="extra-title">01</h1>
+        <h3><a class="extra-link" href="">Reviving Retro PCs</a></h3><br>
+        <p class="extra-text">
+          What happens when old PCs are given modern upgrades?
+        </p>
+      </div>
+      <img class="img-info" src="/assets/images/image-top-laptops.jpg" alt="">
+      <div class="info-container">
+        <h1 class="extra-title">02</h1>
+        <h3><a class="extra-link" href="">Top 10 Laptops of 2022</a></h3><br>
+        <p class="extra-text">
+          Our best picks for various needs and budgets.
+        </p>
+      </div>
+      <img class="img-info" src="/assets/images/image-gaming-growth.jpg" alt="">
+      <div class="info-container">
+        <h1 class="extra-title">03</h1>
+        <h3><a class="extra-link" href="">The Growth of Gaming</a></h3><br>
+        <p class="extra-text">
+          How the pandemic has sparked fresh opportunities.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+  <script src="/src/js/index.js"></script>
+</body>
+</html>
